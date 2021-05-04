@@ -14,12 +14,12 @@ Office365 全局管理（新建、删除、禁用子用户，提升子用户管�
 配置文件：config.php（只要改这个，accounts是一个数组，多个全局的配置分别写这里）  
 
 ### 账号API授权：
-主要是RoleManagement.ReadWrite.Directory（务必保证权限正确开启），而且你的SPO没有被封禁（子账号的onedrive可以正常使用）
+主要是RoleManagement.ReadWrite.Directory（务必保证权限正确开启），而且你的SPO没有被封禁（子账号的onedrive可以正常使用）  
 附上权限图：  
 
 ![c4Lmp8](https://user-images.githubusercontent.com/68975045/116994043-d339f080-ad0a-11eb-9821-595d4b2e9c5e.jpg)
 
 
 官方api教程：
-        https://docs.microsoft.com/en-us ... view=graph-rest-1.0
+https://docs.microsoft.com/en-us/graph/api/directoryrole-post-members?view=graph-rest-1.0
 
